@@ -1,0 +1,11 @@
+{
+  "name": "@qbq-systems/ozon-ru-seller-api",
+  "version": "22.6.24-9.50.5",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {},
+  "private": true,
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
