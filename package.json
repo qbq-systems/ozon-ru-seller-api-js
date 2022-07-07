@@ -1,11 +1,26 @@
 {
-  "name": "@qbq-systems/ozon-ru-seller-api",
-  "version": "22.6.24-9.50.5",
-  "description": "",
+  "name": "@qbq.systems/ozon-ru-seller-api",
+  "version": "22.7.7-13.7.22",
+  "description": "JS API client for ozon.ru seller endpoint",
+  "homepage": "https://github.com/qbq-systems/ozon-ru-seller-api-js",
+  "keywords": [
+    "api",
+    "ozon_ru",
+    "sdk"
+  ],
   "main": "src/index.js",
+  "author": {
+    "name": "Vladimit Galunshchikov",
+    "url": "https://github.com/soyayaos"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qbq-systems/ozon-ru-seller-api-js"
+  },
+  "bugs": {
+    "url": "https://github.com/qbq-systems/ozon-ru-seller-api-js/issues"
+  },
   "scripts": {},
   "private": true,
-  "keywords": [],
-  "author": "",
   "license": "MIT"
 }
