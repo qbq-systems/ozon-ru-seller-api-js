@@ -458,13 +458,13 @@ API.v1.product.archive.moveToArchive(
 
 <u>body</u>   
 
-* id {int64} Номер задания   
+* task_id {int64} Номер задания   
 
 <u>api</u>   
 
 ```
 API.v1.product.import.info.getStatus(
-    id: Int64Type,
+    task_id: Int64Type,
 )
 ```   
 
@@ -732,13 +732,13 @@ API.v1.product.upload_digital_codes.update(
 
 <u>body</u>   
 
-* id {int64} Номер задания   
+* task_id {int64} Номер задания   
 
 <u>api</u>   
 
 ```
 API.v1.product.upload_digital_codes.info.get(
-    id: Int64Type,
+    task_id: Int64Type,
 )
 ```   
 
@@ -1250,13 +1250,13 @@ API.v2.posting.fbs.act.check-status.get(
 
 <u>body</u>   
 
-* id {int64} Номер задания   
+* task_id {int64} Номер задания   
 
 <u>api</u>   
 
 ```
 API.v2.posting.fbs.act.get-container-labels.get(
-    id: Int64Type,
+    task_id: Int64Type,
 )
 ```   
 
@@ -1268,13 +1268,13 @@ API.v2.posting.fbs.act.get-container-labels.get(
 
 <u>body</u>   
 
-* id {int64} Номер задания   
+* task_id {int64} Номер задания   
 
 <u>api</u>   
 
 ```
 API.v2.posting.fbs.act.get-pdf.get(
-    id: Int64Type,
+    task_id: Int64Type,
 )
 ```   
 
