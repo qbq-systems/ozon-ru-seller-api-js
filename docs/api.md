@@ -1618,19 +1618,13 @@ API.v2.products.delete.post(
 
 <u>body</u>   
 
-* offer_id {string} Идентификатор товара в системе продавца — артикул   
-* product_id {int64} Идентификатор товара   
-* stock {int64} Количество   
-* warehouse_id {int64} Идентификатор склада, полученный из метода /v1/warehouse/list   
+* stocks {array}    
 
 <u>api</u>   
 
 ```
 API.v2.products.stocks.update(
-    offer_id: StringType,
-    product_id: Int64Type,
-    stock: Int64Type,
-    warehouse_id: Int64Type,
+    stocks: DefaultItemNameType|DefaultItemNameType[],
 )
 ```   
 
