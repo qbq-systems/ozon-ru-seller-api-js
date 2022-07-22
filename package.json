@@ -1,6 +1,6 @@
 {
   "name": "@qbq.systems/ozon-ru-seller-api",
-  "version": "22.7.22-10.2.30",
+  "version": "22.7.22-10.4.2",
   "description": "JS API client for ozon.ru seller endpoint",
   "homepage": "https://github.com/qbq-systems/ozon-ru-seller-api-js",
   "keywords": [
